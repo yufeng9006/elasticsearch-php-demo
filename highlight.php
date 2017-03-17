@@ -48,7 +48,7 @@ if( isset($_GET['q']) ) {
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <form method="get" action="index.php" autocomplete="off">
+    <form method="get" action="highlight.php" autocomplete="off">
         <label>
             输入需要查找的内容
             <input type="text" name="q" <?php if(isset($q)){echo "value='{$q}'";} ?>>
