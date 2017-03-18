@@ -14,13 +14,13 @@ if( isset($_GET['q']) ) {
                         'match' => ['keywords'=>$q]
                     ]
                 ]
-            ]
-        ]
+            ],
+    ]
     ]);
 
-//    echo "<pre>" , print_r($query) ,"</pre>";
+    echo "<pre>" , print_r($query) ,"</pre>";
 //
-//    die();
+    die();
     if($query['hits']['total']>=1) {
         $results = $query['hits']['hits'];
 
