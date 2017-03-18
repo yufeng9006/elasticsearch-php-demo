@@ -7,7 +7,8 @@ php7, elsasticsearch 2.4
  .gitignore       
 \#vendor
 
-###例子
+
+<h4>例子</h4>
 <p>index.php  简单的查询</p>
 <p>highlight.php  高亮</p>
 <p>page.php 查询分页</p>
